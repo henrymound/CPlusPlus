@@ -1,0 +1,1 @@
+C:\Users\henrymound\Documents\Visual Studio 2010\Projects\XNAInstallTest,\XNAInstallTest,\XNAInstallTest,Content\obj\x86\Debug\XNAInstallTest,Content.contentprojResolveAssemblyReference.cache

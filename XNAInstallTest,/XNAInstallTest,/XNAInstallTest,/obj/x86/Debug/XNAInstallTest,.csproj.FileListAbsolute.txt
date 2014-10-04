@@ -1,0 +1,6 @@
+C:\Users\henrymound\Documents\Visual Studio 2010\Projects\XNAInstallTest,\XNAInstallTest,\XNAInstallTest,\bin\x86\Debug\XNAInstallTest,.exe
+C:\Users\henrymound\Documents\Visual Studio 2010\Projects\XNAInstallTest,\XNAInstallTest,\XNAInstallTest,\bin\x86\Debug\XNAInstallTest,.pdb
+C:\Users\henrymound\Documents\Visual Studio 2010\Projects\XNAInstallTest,\XNAInstallTest,\XNAInstallTest,\obj\x86\Debug\XNAInstallTest,.csprojResolveAssemblyReference.cache
+C:\Users\henrymound\Documents\Visual Studio 2010\Projects\XNAInstallTest,\XNAInstallTest,\XNAInstallTest,\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\henrymound\Documents\Visual Studio 2010\Projects\XNAInstallTest,\XNAInstallTest,\XNAInstallTest,\obj\x86\Debug\XNAInstallTest,.exe
+C:\Users\henrymound\Documents\Visual Studio 2010\Projects\XNAInstallTest,\XNAInstallTest,\XNAInstallTest,\obj\x86\Debug\XNAInstallTest,.pdb

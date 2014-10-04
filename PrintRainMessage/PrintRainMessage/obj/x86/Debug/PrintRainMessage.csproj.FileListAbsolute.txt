@@ -1,0 +1,4 @@
+C:\Users\henrymound\documents\visual studio 2010\Projects\PrintRainMessage\PrintRainMessage\bin\Debug\PrintRainMessage.exe
+C:\Users\henrymound\documents\visual studio 2010\Projects\PrintRainMessage\PrintRainMessage\bin\Debug\PrintRainMessage.pdb
+C:\Users\henrymound\documents\visual studio 2010\Projects\PrintRainMessage\PrintRainMessage\obj\x86\Debug\PrintRainMessage.exe
+C:\Users\henrymound\documents\visual studio 2010\Projects\PrintRainMessage\PrintRainMessage\obj\x86\Debug\PrintRainMessage.pdb
