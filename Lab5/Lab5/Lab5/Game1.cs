@@ -19,10 +19,23 @@ namespace Lab5
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        Texture2D photo1;
+        Texture2D photo2;
+        Texture2D photo3;
+
+        Rectangle drawRectangle1;
+        Rectangle drawRectangle2;
+        Rectangle drawRectangle3;
+
+        const int WINDOW_HEIGHT = 800;
+        const int WINDOW_WIDTH = 600;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            graphics.PreferredBackBufferWidth = WINDOW_WIDTH;
+            graphics.PreferredBackBufferHeight = WINDOW_HEIGHT;
         }
 
         /// <summary>
@@ -47,7 +60,33 @@ namespace Lab5
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
+            //load photo sprites
+            photo1 = Content.Load<Texture2D>("1.jpg");
+            photo2 = Content.Load<Texture2D>("2.jpg");
+            photo3 = Content.Load<Texture2D>("3.jpg");
+
+            //DRAW RECTANGLES WITH PHOTOS
+            //rectangle 1 displays photo1 at full resolution at coordinates (300, 300)
+            drawRectangle1 = new Rectangle(
+                300,
+                300,
+                photo1.Width,
+                photo1.Height);
+
+            //rectangle 2 displays photo2 at full resolution at coordinates (400, 400)
+            drawRectangle2 = new Rectangle(
+                graphics.PreferredBackBufferWidth / 4,
+                graphics.PreferredBackBufferHeight / 4,
+                photo2.Width,
+                photo2.Height);
+
+            //rectangle 3 displays photo3 at full resolution at coordinates (200, 200)
+            drawRectangle3 = new Rectangle(
+                graphics.PreferredBackBufferWidth / 4,
+                graphics.PreferredBackBufferHeight / 4,
+                photo3.Width,
+                photo3.Height);
+
         }
 
         /// <summary>
