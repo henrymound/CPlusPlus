@@ -4,3 +4,6 @@ C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab5\Lab5\Lab5\obj\x86\Deb
 C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab5\Lab5\Lab5\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab5\Lab5\Lab5\obj\x86\Debug\Lab5.exe
 C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab5\Lab5\Lab5\obj\x86\Debug\Lab5.pdb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab5\Lab5\Lab5\bin\x86\Debug\Content\green.xnb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab5\Lab5\Lab5\bin\x86\Debug\Content\orange.xnb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab5\Lab5\Lab5\bin\x86\Debug\Content\blue.xnb

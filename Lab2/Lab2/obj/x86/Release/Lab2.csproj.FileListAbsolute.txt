@@ -2,3 +2,5 @@ C:\Users\henrymound\AppData\Local\Temporary Projects\Lab2\bin\Release\Lab2.exe
 C:\Users\henrymound\AppData\Local\Temporary Projects\Lab2\bin\Release\Lab2.pdb
 C:\Users\henrymound\AppData\Local\Temporary Projects\Lab2\obj\x86\Release\Lab2.exe
 C:\Users\henrymound\AppData\Local\Temporary Projects\Lab2\obj\x86\Release\Lab2.pdb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab2\Lab2\obj\x86\Release\Lab2.exe
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab2\Lab2\obj\x86\Release\Lab2.pdb

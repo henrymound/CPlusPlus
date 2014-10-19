@@ -19,9 +19,9 @@ namespace Lab5
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        Texture2D photo1;
-        Texture2D photo2;
-        Texture2D photo3;
+        Texture2D orangeSprite;
+        Texture2D blueSprite;
+        Texture2D greenSprite;
 
         Rectangle drawRectangle1;
         Rectangle drawRectangle2;
@@ -34,8 +34,9 @@ namespace Lab5
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-            graphics.PreferredBackBufferWidth = WINDOW_WIDTH;
-            graphics.PreferredBackBufferHeight = WINDOW_HEIGHT;
+            graphics.PreferredBackBufferWidth = 584;
+            graphics.PreferredBackBufferHeight = 438;
+            
         }
 
         /// <summary>
@@ -61,31 +62,31 @@ namespace Lab5
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             //load photo sprites
-            photo1 = Content.Load<Texture2D>("1.jpg");
-            photo2 = Content.Load<Texture2D>("2.jpg");
-            photo3 = Content.Load<Texture2D>("3.jpg");
+            orangeSprite = Content.Load<Texture2D>("orange");
+            greenSprite = Content.Load<Texture2D>("green");
+            blueSprite = Content.Load<Texture2D>("blue");
 
             //DRAW RECTANGLES WITH PHOTOS
-            //rectangle 1 displays photo1 at full resolution at coordinates (300, 300)
+            //rectangle 1 displays orange sprite at full resolution at coordinates (350, 100)
             drawRectangle1 = new Rectangle(
-                300,
-                300,
-                photo1.Width,
-                photo1.Height);
+                350,
+                100,
+                orangeSprite.Width,
+                orangeSprite.Height);
 
-            //rectangle 2 displays photo2 at full resolution at coordinates (400, 400)
+            //rectangle 2 displays green sprite at full resolution at coordinates (250, 100)
             drawRectangle2 = new Rectangle(
-                graphics.PreferredBackBufferWidth / 4,
-                graphics.PreferredBackBufferHeight / 4,
-                photo2.Width,
-                photo2.Height);
+                250,
+                100,
+                greenSprite.Width,
+                greenSprite.Height);
 
-            //rectangle 3 displays photo3 at full resolution at coordinates (200, 200)
+            //rectangle 3 displays blue sprite at full resolution at coordinates (150, 100)
             drawRectangle3 = new Rectangle(
-                graphics.PreferredBackBufferWidth / 4,
-                graphics.PreferredBackBufferHeight / 4,
-                photo3.Width,
-                photo3.Height);
+                150,
+                100,
+                blueSprite.Width,
+                blueSprite.Height);
 
         }
 
@@ -109,7 +110,6 @@ namespace Lab5
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
-            // TODO: Add your update logic here
 
             base.Update(gameTime);
         }
@@ -120,9 +120,13 @@ namespace Lab5
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.BurlyWood);
 
-            // TODO: Add your drawing code here
+            spriteBatch.Begin(); 
+            spriteBatch.Draw(orangeSprite, drawRectangle1, Color.White); 
+            spriteBatch.Draw(greenSprite, drawRectangle2, Color.White); 
+            spriteBatch.Draw(blueSprite, drawRectangle3, Color.White); 
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
