@@ -1,0 +1,12 @@
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab7\bin\Release\Lab7.exe
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab7\bin\Release\Lab7.pdb
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab7\obj\x86\Release\Lab7.exe
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab7\obj\x86\Release\Lab7.pdb
+C:\Users\henrymound\documents\visual studio 2010\Projects\Lab7\Lab7\obj\x86\Release\Lab7.exe
+C:\Users\henrymound\documents\visual studio 2010\Projects\Lab7\Lab7\obj\x86\Release\Lab7.pdb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab7\Lab7\obj\x86\Release\Lab7.exe
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab7\Lab7\obj\x86\Release\Lab7.pdb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab7 (with reminder)\Lab7\obj\x86\Release\Lab7.exe
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab7 (with reminder)\Lab7\obj\x86\Release\Lab7.pdb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab7 (with reminder)\Lab7\bin\Release\Lab7.exe
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab7 (with reminder)\Lab7\bin\Release\Lab7.pdb

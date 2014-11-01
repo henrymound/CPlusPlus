@@ -1,0 +1,4 @@
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab7\bin\Debug\Lab7.exe
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab7\bin\Debug\Lab7.pdb
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab7\obj\x86\Debug\Lab7.exe
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab7\obj\x86\Debug\Lab7.pdb
