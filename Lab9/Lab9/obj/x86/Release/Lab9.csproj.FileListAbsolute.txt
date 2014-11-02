@@ -1,0 +1,8 @@
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab9\bin\Release\Lab9.exe
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab9\bin\Release\Lab9.pdb
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab9\obj\x86\Release\Lab9.exe
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab9\obj\x86\Release\Lab9.pdb
+C:\Users\henrymound\documents\visual studio 2010\Projects\Lab9\Lab9\obj\x86\Release\Lab9.exe
+C:\Users\henrymound\documents\visual studio 2010\Projects\Lab9\Lab9\obj\x86\Release\Lab9.pdb
+C:\Users\henrymound\documents\visual studio 2010\Projects\Lab9\Lab9\bin\Release\Lab9.exe
+C:\Users\henrymound\documents\visual studio 2010\Projects\Lab9\Lab9\bin\Release\Lab9.pdb

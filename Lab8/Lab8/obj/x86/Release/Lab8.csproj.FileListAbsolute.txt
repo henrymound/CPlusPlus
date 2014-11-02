@@ -1,0 +1,6 @@
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab8\bin\Release\Lab8.exe
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab8\bin\Release\Lab8.pdb
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab8\obj\x86\Release\Lab8.exe
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab8\obj\x86\Release\Lab8.pdb
+C:\Users\henrymound\documents\visual studio 2010\Projects\Lab8\Lab8\obj\x86\Release\Lab8.exe
+C:\Users\henrymound\documents\visual studio 2010\Projects\Lab8\Lab8\obj\x86\Release\Lab8.pdb
