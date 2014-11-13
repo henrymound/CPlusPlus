@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab10", "Lab10\Lab10\Lab10.csproj", "{A817232B-2A31-4395-968C-A2F8A6EDAD36}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Lab10Content", "Lab10\Lab10Content\Lab10Content.contentproj", "{07936787-A4D0-428A-A645-1F31C1BD88F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A817232B-2A31-4395-968C-A2F8A6EDAD36}.Debug|x86.ActiveCfg = Debug|x86
+		{A817232B-2A31-4395-968C-A2F8A6EDAD36}.Debug|x86.Build.0 = Debug|x86
+		{A817232B-2A31-4395-968C-A2F8A6EDAD36}.Release|x86.ActiveCfg = Release|x86
+		{A817232B-2A31-4395-968C-A2F8A6EDAD36}.Release|x86.Build.0 = Release|x86
+		{07936787-A4D0-428A-A645-1F31C1BD88F4}.Debug|x86.ActiveCfg = Debug|x86
+		{07936787-A4D0-428A-A645-1F31C1BD88F4}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab10\Lab10\Lab10\bin\x86\Debug\Content\explosion.xnb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab10\Lab10\Lab10\bin\x86\Debug\Content\teddybear0.xnb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab10\Lab10\Lab10\bin\x86\Debug\Content\teddybear1.xnb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab10\Lab10\Lab10\bin\x86\Debug\Lab10.exe
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab10\Lab10\Lab10\bin\x86\Debug\Lab10.pdb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab10\Lab10\Lab10\bin\x86\Debug\ExplodingTeddies.dll
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab10\Lab10\Lab10\obj\x86\Debug\Lab10.csprojResolveAssemblyReference.cache
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab10\Lab10\Lab10\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab10\Lab10\Lab10\obj\x86\Debug\Lab10.exe
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab10\Lab10\Lab10\obj\x86\Debug\Lab10.pdb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab10\Lab10\Lab10\bin\x86\Debug\Content\orange.xnb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab10\Lab10\Lab10\bin\x86\Debug\Content\red.xnb
