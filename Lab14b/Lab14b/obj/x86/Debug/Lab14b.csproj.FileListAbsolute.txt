@@ -1,0 +1,6 @@
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab14b\Lab14b\bin\Debug\Lab14b.exe
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab14b\Lab14b\bin\Debug\Lab14b.pdb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab14b\Lab14b\bin\Debug\ConsoleCards.dll
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab14b\Lab14b\obj\x86\Debug\Lab14b.csprojResolveAssemblyReference.cache
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab14b\Lab14b\obj\x86\Debug\Lab14b.exe
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab14b\Lab14b\obj\x86\Debug\Lab14b.pdb

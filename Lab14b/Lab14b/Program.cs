@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using ConsoleCards;
 
 namespace Lab14a
 {
@@ -9,19 +10,21 @@ namespace Lab14a
     {
         static void Main(string[] args)
         {
-            //Problem 1
-            int lowerBound = 0;
-            int upperBound = 0;
-            Console.Write("Enter the lower bound number:");
-            lowerBound = int.Parse(Console.ReadLine());
-            Console.Write("\nEnter the upper bound number:");
-            upperBound = int.Parse(Console.ReadLine());
-            Console.WriteLine("\nPrinting ints from lower to upper bound (inclusive)...");
-            for (int counter = lowerBound; counter <= upperBound; counter++) {
-                Console.WriteLine(counter);
-            }
-            Console.WriteLine();
+            //Problem 2
+            Deck deck = new Deck();
+            List<Card> hand = new List<Card>();
+            deck.Shuffle();
 
+            //Problem 3
+            for (int counter = 0; counter < 5; counter++) {
+                hand.Add(deck.TakeTopCard());
+            }
+            for (int counter = 0; counter < hand.Count; counter++) {
+                hand[counter].FlipOver();//flips over all cards in the hand
+            }
+            foreach(Card card in hand){
+                card.Print();
+            }
         }
     }
 }

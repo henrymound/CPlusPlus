@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F8133B2E-B23D-439F-B3C2-D5730C9A5F19}</ProjectGuid>
+    <ProjectGuid>{666FF62A-0FC6-4C00-A9CC-F7A25D80F763}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApplication1</RootNamespace>
-    <AssemblyName>lab14</AssemblyName>
+    <RootNamespace>Lab14a</RootNamespace>
+    <AssemblyName>Lab14b</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
