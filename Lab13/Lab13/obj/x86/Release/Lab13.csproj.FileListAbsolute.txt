@@ -1,0 +1,10 @@
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab13\bin\Release\Lab13.exe
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab13\bin\Release\Lab13.pdb
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab13\bin\Release\ConsoleCards.dll
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab13\obj\x86\Release\Lab13.exe
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab13\obj\x86\Release\Lab13.pdb
+C:\Users\henrymound\documents\visual studio 2010\Projects\Lab13\Lab13\obj\x86\Release\Lab13.exe
+C:\Users\henrymound\documents\visual studio 2010\Projects\Lab13\Lab13\obj\x86\Release\Lab13.pdb
+C:\Users\henrymound\documents\visual studio 2010\Projects\Lab13\Lab13\bin\Release\Lab13.exe
+C:\Users\henrymound\documents\visual studio 2010\Projects\Lab13\Lab13\bin\Release\Lab13.pdb
+C:\Users\henrymound\documents\visual studio 2010\Projects\Lab13\Lab13\bin\Release\ConsoleCards.dll

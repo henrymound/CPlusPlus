@@ -1,0 +1,4 @@
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab14a\bin\Release\Lab14a.exe
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab14a\bin\Release\Lab14a.pdb
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab14a\obj\x86\Release\Lab14a.exe
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab14a\obj\x86\Release\Lab14a.pdb

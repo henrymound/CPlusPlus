@@ -1,0 +1,6 @@
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab13\bin\Debug\Lab13.exe
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab13\bin\Debug\Lab13.pdb
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab13\bin\Debug\ConsoleCards.dll
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab13\obj\x86\Debug\Lab13.csprojResolveAssemblyReference.cache
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab13\obj\x86\Debug\Lab13.exe
+C:\Users\henrymound\AppData\Local\Temporary Projects\Lab13\obj\x86\Debug\Lab13.pdb

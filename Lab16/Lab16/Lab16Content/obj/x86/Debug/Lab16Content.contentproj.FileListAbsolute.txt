@@ -1,0 +1,2 @@
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab16\Lab16\Lab16Content\obj\x86\Debug\Lab16Content.contentprojResolveAssemblyReference.cache
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab16\Lab16\Lab16Content\obj\x86\Debug\CrossPlatformAudioProject.xml

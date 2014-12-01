@@ -1,0 +1,9 @@
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab16\Lab16\Lab16\bin\x86\Debug\Content\CrossPlatformAudioProject.xgs
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab16\Lab16\Lab16\bin\x86\Debug\Content\Wave Bank.xwb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab16\Lab16\Lab16\bin\x86\Debug\Content\Sound Bank.xsb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab16\Lab16\Lab16\bin\x86\Debug\Lab16.exe
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab16\Lab16\Lab16\bin\x86\Debug\Lab16.pdb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab16\Lab16\Lab16\obj\x86\Debug\Lab16.csprojResolveAssemblyReference.cache
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab16\Lab16\Lab16\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab16\Lab16\Lab16\obj\x86\Debug\Lab16.exe
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab16\Lab16\Lab16\obj\x86\Debug\Lab16.pdb

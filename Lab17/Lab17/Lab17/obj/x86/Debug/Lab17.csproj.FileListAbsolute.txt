@@ -1,0 +1,8 @@
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab17\Lab17\Lab17\obj\x86\Debug\Lab17.csprojResolveAssemblyReference.cache
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab17\Lab17\Lab17\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab17\Lab17\Lab17\bin\x86\Debug\Content\sprite.xnb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab17\Lab17\Lab17\bin\x86\Debug\Lab17.exe
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab17\Lab17\Lab17\bin\x86\Debug\Lab17.pdb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab17\Lab17\Lab17\obj\x86\Debug\Lab17.exe
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab17\Lab17\Lab17\obj\x86\Debug\Lab17.pdb
+C:\Users\henrymound\Documents\GitHub\Programming-In-C\Lab17\Lab17\Lab17\bin\x86\Debug\Content\Arial.xnb
