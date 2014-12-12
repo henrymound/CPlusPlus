@@ -23,7 +23,9 @@ namespace Lab17
         Rectangle spriteRectangle;
 
         const int WINDOW_WIDTH = 800;
-        const int WINDOW_HEIGHT = 600; 
+        const int WINDOW_HEIGHT = 600;
+
+        Boolean continuousCounting = false;
 
         //how many pixels your asset will move on each update
         const int PIXELS_TO_MOVE = 5;
@@ -110,10 +112,19 @@ namespace Lab17
             }
 
             //Adds to counter is sprite is off stage
-            if (spriteRectangle.X > WINDOW_WIDTH || spriteRectangle.X < 0
-               || spriteRectangle.Y > WINDOW_HEIGHT || spriteRectangle.Y < 0)
-                 offScreenCount++;
-            
+            if ((spriteRectangle.X > WINDOW_WIDTH || spriteRectangle.X < 0
+               || spriteRectangle.Y > WINDOW_HEIGHT || spriteRectangle.Y < 0) && continuousCounting == false)
+            {
+                offScreenCount++;
+                continuousCounting = true;
+            }
+            if (!(spriteRectangle.X > WINDOW_WIDTH || spriteRectangle.X < 0
+               || spriteRectangle.Y > WINDOW_HEIGHT || spriteRectangle.Y < 0 && continuousCounting == false) &&
+                spriteRectangle.X > 0 && spriteRectangle.Y > 0)
+            {
+                continuousCounting = false;
+            }
+
             base.Update(gameTime);
         }
 
