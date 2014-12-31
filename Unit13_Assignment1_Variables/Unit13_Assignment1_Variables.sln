@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Unit13_Assignment1_Variables", "Unit13_Assignment1_Variables\Unit13_Assignment1_Variables.vcxproj", "{507A081A-4767-46FE-8EF7-4E5D176BE79E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{507A081A-4767-46FE-8EF7-4E5D176BE79E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{507A081A-4767-46FE-8EF7-4E5D176BE79E}.Debug|Win32.Build.0 = Debug|Win32
+		{507A081A-4767-46FE-8EF7-4E5D176BE79E}.Release|Win32.ActiveCfg = Release|Win32
+		{507A081A-4767-46FE-8EF7-4E5D176BE79E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
