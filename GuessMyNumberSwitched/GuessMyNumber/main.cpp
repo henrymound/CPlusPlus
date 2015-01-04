@@ -11,11 +11,15 @@ int main(){
 	//**Set up**
 	cout << "----- Guess My Number! -----" << endl; //Welcomes the user
 
+	int compGuess = 50;
 	int numberToGuess;
-	int guess;
 	int guessAttempts = 0;
 	int lowerBracket = 0;//Used to help improve computer's guesses
 	int upperBracket = 100;
+	int guessList[100];
+	for(int counter = 0; counter < 100; counter++){//fills array with possible guesses (0-100) for search
+		guessList[counter] = counter;
+	}
 
 	srand(static_cast<unsigned int>(time(0)));//Uses time to seed random number
 
@@ -25,25 +29,33 @@ int main(){
 	//**Game Loop**
 	do{
 		//*Get Player Input* - Generates computer's guess
-		guess = (rand() % (upperBracket - lowerBracket)) + lowerBracket;
-		cout << "I am going to guess the number is " << guess << "." ; 
 		
 		//*Update Game Internals*
 		guessAttempts++;
 
 		//*Update Display*
 		//*Game Over?*
-		if(guess > numberToGuess){
-			cout << "\nMy guess was too high! I'll guess lower next time.\n";
-			upperBracket = guess;
-		}else if (guess < numberToGuess){
-			cout << "\nMy guess wass too low! I'll guess higher next time.\n";
-			lowerBracket = guess;
-		}else if (guess == numberToGuess){
-			//*Shut Down*
-			cout << "\I guessed the secret number in " << guessAttempts << " tries!\n";
+		int low = 1;
+		int high = 100;
+		int mid;
+		while (low <= high){
+			mid = low + (high-low)/2;
+			cout << "I am going to guess the number is " << guessList[mid] << "." ; 
+			if(guessList[mid] == numberToGuess){
+				cout << "\nI guessed the secret number in " << guessAttempts << " tries!\n";
+				compGuess = guessList[mid];
+				break;
+			}else if (guessList[mid] < numberToGuess){
+				cout << "\nMy guess wass too low! I'll guess higher next time.\n";
+				low = mid+1;
+			}else{
+				//*Shut Down*
+				high = mid-1;
+				cout << "\nMy guess was too high! I'll guess lower next time.\n";
+			}
+			guessAttempts++;
 		}
-	}while (guess != numberToGuess);
+	}while (compGuess != numberToGuess);
 
 	system("pause");
 	return 0;
