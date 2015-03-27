@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="pacman" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/pacman" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/pacman" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="COPYING" />
+		<Unit filename="Copyright" />
+		<Unit filename="Imakefile" />
+		<Unit filename="Makefile" />
+		<Unit filename="README" />
+		<Unit filename="arg.cc" />
+		<Unit filename="arg.h" />
+		<Unit filename="basis.h" />
+		<Unit filename="blank.cc" />
+		<Unit filename="blank.h" />
+		<Unit filename="board.cc" />
+		<Unit filename="board.h" />
+		<Unit filename="bonus.cc" />
+		<Unit filename="bonus.h" />
+		<Unit filename="bonuslif.cc" />
+		<Unit filename="bonuslif.h" />
+		<Unit filename="bonuspnt.cc" />
+		<Unit filename="bonuspnt.h" />
+		<Unit filename="colour.cc" />
+		<Unit filename="colour.h" />
+		<Unit filename="corner.o" />
+		<Unit filename="corner1.o" />
+		<Unit filename="corner2.o" />
+		<Unit filename="corner3.o" />
+		<Unit filename="corner4.o" />
+		<Unit filename="cross.o" />
+		<Unit filename="direc.cc" />
+		<Unit filename="direc.h" />
+		<Unit filename="direc.o" />
+		<Unit filename="dynamiel.cc" />
+		<Unit filename="dynamiel.h" />
+		<Unit filename="dynamiel.o" />
+		<Unit filename="e0.o" />
+		<Unit filename="e180.o" />
+		<Unit filename="e270.o" />
+		<Unit filename="e90.o" />
+		<Unit filename="edible.h" />
+		<Unit filename="element.cc" />
+		<Unit filename="element.h" />
+		<Unit filename="element.o" />
+		<Unit filename="endwall.h" />
+		<Unit filename="food.cc" />
+		<Unit filename="food.h" />
+		<Unit filename="food.o" />
+		<Unit filename="gamedata.cc" />
+		<Unit filename="gamedata.h" />
+		<Unit filename="gamedata.o" />
+		<Unit filename="gblank.cc" />
+		<Unit filename="gblank.h" />
+		<Unit filename="gblank.o" />
+		<Unit filename="gboard.cc" />
+		<Unit filename="gboard.h" />
+		<Unit filename="gboard.o" />
+		<Unit filename="gbonlife.cc" />
+		<Unit filename="gbonlife.h" />
+		<Unit filename="gbonlife.o" />
+		<Unit filename="gbonpnt.cc" />
+		<Unit filename="gbonpnt.h" />
+		<Unit filename="gbonpnt.o" />
+		<Unit filename="gbonus.h" />
+		<Unit filename="gdynelem.cc" />
+		<Unit filename="gdynelem.h" />
+		<Unit filename="gdynelem.o" />
+		<Unit filename="gedible.h" />
+		<Unit filename="gen" />
+		<Unit filename="gfood.cc" />
+		<Unit filename="gfood.h" />
+		<Unit filename="gfood.o" />
+		<Unit filename="gghost.cc" />
+		<Unit filename="gghost.h" />
+		<Unit filename="gghost.o" />
+		<Unit filename="ghost.cc" />
+		<Unit filename="ghost.h" />
+		<Unit filename="ghost.o" />
+		<Unit filename="gmoveabl.h" />
+		<Unit filename="gpacman.cc" />
+		<Unit filename="gpacman.h" />
+		<Unit filename="gpacman.o" />
+		<Unit filename="graphele.cc" />
+		<Unit filename="graphele.h" />
+		<Unit filename="graphele.o" />
+		<Unit filename="gspecwal.cc" />
+		<Unit filename="gspecwal.h" />
+		<Unit filename="gspecwal.o" />
+		<Unit filename="gstatele.h" />
+		<Unit filename="gsupfood.cc" />
+		<Unit filename="gsupfood.h" />
+		<Unit filename="gsupfood.o" />
+		<Unit filename="gunmovel.h" />
+		<Unit filename="horiwall.o" />
+		<Unit filename="makeg" />
+		<Unit filename="moveable.h" />
+		<Unit filename="object.h" />
+		<Unit filename="pac.cc" />
+		<Unit filename="pac.h" />
+		<Unit filename="pac.o" />
+		<Unit filename="pacman" />
+		<Unit filename="pacman._man" />
+		<Unit filename="pacman.cbp" />
+		<Unit filename="pacman.cc" />
+		<Unit filename="pacman.h" />
+		<Unit filename="pacman.layout" />
+		<Unit filename="pacman.man" />
+		<Unit filename="pacman.o" />
+		<Unit filename="point.cc" />
+		<Unit filename="point.h" />
+		<Unit filename="point.o" />
+		<Unit filename="shapes.h" />
+		<Unit filename="sizes.h" />
+		<Unit filename="specwall.cc" />
+		<Unit filename="specwall.h" />
+		<Unit filename="specwall.o" />
+		<Unit filename="staticel.h" />
+		<Unit filename="supefood.cc" />
+		<Unit filename="supefood.h" />
+		<Unit filename="supefood.o" />
+		<Unit filename="systspec.h" />
+		<Unit filename="t0.o" />
+		<Unit filename="t180.o" />
+		<Unit filename="t270.o" />
+		<Unit filename="t90.o" />
+		<Unit filename="timing.cc" />
+		<Unit filename="timing.h" />
+		<Unit filename="timing.o" />
+		<Unit filename="types.h" />
+		<Unit filename="unmovele.h" />
+		<Unit filename="usrinter.cc" />
+		<Unit filename="usrinter.h" />
+		<Unit filename="usrinter.o" />
+		<Unit filename="vertwall.o" />
+		<Unit filename="walls.cc" />
+		<Unit filename="walls.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

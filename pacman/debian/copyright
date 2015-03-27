@@ -1,0 +1,35 @@
+This package was originally debianized by Christoph Lameter clameter@debian.org on Sun, 29 Dec 1996 15:54:27 -0800, and is now maintained by Joe Nahmias <jello@debian.org>.
+
+It was downloaded from ftp.cdrom.com:/pub/FreeBSD/distfiles
+
+Upstream Author:	Roar Thronaes <roart@nvg.unit.no>
+
+For the ubuntu feisty version, icon courtesy of Douglas Gallagher from www.amazingdg.com
+
+Copyright:
+
+Copyright (C) 1995  Roar Thronaes
+email: roart@nvg.unit.no
+
+Copyright applies to *.h and *.cc files, even though no copyright is
+stated in them.
+
+License:
+
+   This package is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+ 
+   This package is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+ 
+   You should have received a copy of the GNU General Public License
+   along with this package; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+   02110-1301, USA.
+ 
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL'.

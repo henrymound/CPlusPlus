@@ -1,0 +1,69 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+# GNU copyright 1997 to 1999 by Joey Hess.
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+CFLAGS = -Wall -g
+ifneq (,$(findstring noopt,$(DEB_BUILD_OPTIONS)))
+	CFLAGS += -O0
+else
+	CFLAGS += -O2
+endif
+export CFLAGS
+
+build: build-stamp
+build-stamp:
+	dh_testdir
+	xmkmf -a
+	$(MAKE)
+	touch build-stamp
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp
+	[ ! -f Makefile ] || $(MAKE) clean
+	dh_clean Makefile
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k 
+	dh_installdirs
+	dh_install
+
+	#install desktop and icon
+	install -m 644 -D $(CURDIR)/debian/pacman.desktop \
+		$(CURDIR)/debian/pacman/usr/share/applications/pacman.desktop
+	install -m 644 -D $(CURDIR)/debian/pacmania.xpm \
+		$(CURDIR)/debian/pacman/usr/share/pixmaps/pacmania.xpm
+
+# Build architecture-independent files here.
+binary-indep:
+# We have nothing to do by default.
+
+# Build architecture-dependent files here.
+binary-arch: build install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs
+	dh_desktop 
+	dh_installdocs
+	dh_installexamples
+	dh_installmenu
+	dh_installman
+	dh_link
+	dh_strip
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install

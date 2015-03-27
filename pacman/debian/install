@@ -1,0 +1,2 @@
+pacman usr/games/
+debian/*.xpm	usr/share/pixmaps/

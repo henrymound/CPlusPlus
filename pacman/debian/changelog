@@ -1,0 +1,158 @@
+pacman (10-17ubuntu2) maverick; urgency=low
+
+  * Modify Build-Depends to fix FTBFS (LP: #620359):
+    + Drop BD on makedepend as xutils-dev provides it
+    + BD on x11proto-core-dev instead of x-dev (it provides x-dev)
+    + Drop BD on xutils (now a transitional stub)
+
+ -- Bhavani Shankar <bhavi@ubuntu.com>  Sat, 21 Aug 2010 00:36:37 +0200
+
+pacman (10-17ubuntu1) intrepid; urgency=low
+
+  * Merge from Debian unstable (LP: #241732), remaining Ubuntu changes: 
+    + debian/control: update build-depends and Maintainer field as per spec  
+    + Provide an icon and a .desktop file
+
+ -- Paolo Naldini <hattory@ubuntu.com>  Tue, 17 Jun 2008 12:31:43 +0200
+
+pacman (10-17) unstable; urgency=low
+
+  * imake has moved to xutils-dev, closes: #485214.
+  * use nanosleep to avoid chewing up the cpu, closes: #348425.
+  * add a menu icon, thanks Mark Purcell!  Closes: #273457.
+  * bump debhelper compat to 6, no changes.
+  * Update std-ver to 3.8.0
+    + change menu section to Games/Action [was Games/Arcade].
+  * Updated copyright and license information.
+
+ -- Joe Nahmias <jello@debian.org>  Mon, 16 Jun 2008 23:30:58 -0400
+
+pacman (10-16ubuntu2) feisty; urgency=low
+
+  * Add icon and desktop (Closes: LP#91736).
+  * Update Maintainer field in debian/control, see:
+    https://wiki.ubuntu.com/DebianMaintainerField
+
+ -- Cesare Tirabassi <norsetto@alice.it>  Tue, 13 Mar 2007 11:51:05 +0100
+
+pacman (10-16ubuntu1) dapper; urgency=low
+
+  * Build-depends: makedepend, libxext-dev
+
+ -- LaMont Jones <lamont@ubuntu.com>  Fri,  3 Feb 2006 00:33:28 -0700
+
+pacman (10-16) unstable; urgency=low
+
+  * debian/control: xlibs-dev transition (closes: #346894).
+  * debian/control: bump Std-Ver, no changes.
+  * debian/menu: quote strings to satisfy lintian.
+  * debian/copyright: update address for FSF to satisfy lintian.
+
+ -- Joe Nahmias <jello@debian.org>  Fri, 13 Jan 2006 04:26:04 +0000
+
+pacman (10-15) unstable; urgency=low
+
+  * New Maintainer (closes: #182985).
+  * Update build system to use debhelper.
+  * debian/control: Std-Ver (bumped to 3.6.1).
+  * pacman.man: escaped bare dash.
+
+ -- Joe Nahmias <jello@debian.org>  Wed, 29 Oct 2003 12:52:30 -0500
+
+pacman (10-14) unstable; urgency=low
+
+  * Rebuilt with g++ 3.3 which fixes old libstdc++2.10-glibc2.2 dep (closes: #210503)
+
+ -- Peter Joseph  <kneecaps@debian.org>  Fri, 12 Sep 2003 13:37:11 +0100
+
+pacman (10-13) unstable; urgency=low
+
+  * Fixed HPPA build problems thanks to Snowman (closes: #104861)
+
+ -- Peter Joseph <kneecaps@debian.org>  Mon, 16 Jul 2001 00:40:44 +0100
+
+pacman (10-12) unstable; urgency=low
+
+  * New Maintainer (closes: #89251)
+
+ -- Peter Joseph <kneecaps@ntlworld.com>  Sun, 17 Jun 2001 23:44:27 +0100
+
+pacman (10-11) unstable; urgency=low
+
+  * Fixed initialisation bug that was causing segfault at startup for some user. Closes: #45027.
+
+ -- Steve McIntyre <93sam@debian.org>  Fri, 9 Mar 2001 22:34:27 -0000
+
+pacman (10-10) unstable; urgency=low
+
+  * Renamed Build-Depends-Indep to Build-Depends. Closes: #88734.
+  * Changed maintainer address.
+
+ -- Steve McIntyre <93sam@debian.org>  Wed, 7 Mar 2001 01:00:27 -0000
+
+pacman (10-9) unstable; urgency=low
+
+  * Added Build-Depends-Indep. Closes: #84650.
+  * Updated Standards-Version.
+
+ -- Steve McIntyre <stevem@chiark.greenend.org.uk>  Sun, 18 Feb 2001 21:21:46 -0000
+
+pacman (10-8) unstable; urgency=low
+
+  * Moved /usr/doc stuff to /usr/share/doc.
+  * Updated Standards-Version.
+  * Lots of lintian warning fixes.
+
+ -- Steve McIntyre <stevem@chiark.greenend.org.uk>  Sat, 23 Dec 2000 16:11:46 -0000
+
+pacman (10-7) frozen unstable; urgency=low
+
+  * Rebuilt against ncurses4 for slink.
+  * Needed to add -fno-rtti -fno-exceptions to compiler flags to fix linking problems.
+
+ -- Steve McIntyre <stevem@chiark.greenend.org.uk>  Sat, 31 Oct 1998 09:30:46 -0000
+
+pacman (10-6) unstable; urgency=low
+
+  * Moved binary to /usr/games and manpage to /usr/man/man6, to fit Policy section 4.9.
+
+ -- Steve McIntyre <stevem@chiark.greenend.org.uk>  Sat, 14 Mar 1998 21:34:02 -0000
+
+pacman (10-5) unstable; urgency=low
+
+  * Libc6 compilation - used patch in bug#16195 (now closed).
+  * Fixed debian/rules so fakeroot will work.
+  * New standards-version.
+  * Updated menu entry.
+
+ -- Steve McIntyre <stevem@chiark.greenend.org.uk>  Sat, 10 Jan 1998 17:56:21 -0000
+
+pacman (10-4) unstable; urgency=low
+
+  * Moved man page into section 6.
+  * Fixed perms on man page.
+
+ -- Steve McIntyre <stevem@chiark.greenend.org.uk>  Thu, 31 Jan 1997 20:14:38 -0000
+
+pacman (10-3) unstable; urgency=low
+
+  * New maintainer
+  * Moved menu entry again - now Games/Arcade
+
+ -- Steve McIntyre <stevem@chiark.greenend.org.uk>  Mon, 20 Jan 1997 11:21:38 -0000
+
+pacman (10-2) unstable; urgency=low
+
+  * Changed location of pacman in the menus according to joey's advice.
+
+ -- Christoph Lameter <clameter@debian.org>  Tue, 7 Jan 1997 13:21:38 -0800
+
+pacman (10-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Christoph Lameter <clameter@debian.org>  Sun, 29 Dec 1996 15:54:27 -0800
+
+Local variables:
+mode: debian-changelog
+End:
