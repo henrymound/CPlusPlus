@@ -1,2 +1,6 @@
 #TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+<<<<<<< Updated upstream
 Debug|Win32|C:\Users\henrymound\Documents\GitHub\Programming-In-C\Unit 16\robot_example\|
+=======
+Debug|Win32|\\psf\Home\Documents\GitHub\Programming-In-C\Unit 16\robot_example\|
+>>>>>>> Stashed changes
